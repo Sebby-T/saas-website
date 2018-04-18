@@ -2,6 +2,10 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
+.light-blue {
+  background-color: #26c6ff;
+}
+
 .heading {
   font-family: 'Comfortaa', cursive;
 }
@@ -31,12 +35,22 @@ header {
   background-color: #23282d;
 }
 
+.nav li:nth-child(even) {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
 header [type="checkbox"] + label::before {
   top: -10em;
 }
 
+.nav-close {
+  display: none;
+}
+
 .nav-check:checked ~ .nav {
   display: block;
+  border-top: 2px solid #fff;
 }
 
 .nav-check:checked ~ .nav-label .nav-open {
@@ -47,6 +61,11 @@ header [type="checkbox"] + label::before {
   display: block;
 }
 
-.nav-close {
-  display: none;
+@media only screen and (min-width: 38em) {
+
+  header [type="checkbox"] + label,
+  .nav-check:checked ~ .nav {
+    display: none;
+  }
+
 }
