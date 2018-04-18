@@ -1,0 +1,52 @@
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+.heading {
+  font-family: 'Comfortaa', cursive;
+}
+
+header {
+  background-color: #23282d;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.header-nav a,
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  color: #000;
+  background-color: #f6d340;
+  border-radius: 3px;
+}
+
+.nav {
+  display: none;
+  background-color: #23282d;
+}
+
+header [type="checkbox"] + label::before {
+  top: -10em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.nav-close {
+  display: none;
+}
