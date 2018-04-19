@@ -56,6 +56,10 @@ footer {
   text-decoration: none;
 }
 
+.footer a:hover {
+  color: #f6d340;
+}
+
 .header-nav a:hover {
   color: #000;
   background-color: #f6d340;
@@ -91,6 +95,10 @@ header [type="checkbox"] + label::before {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+header .current {
+  color: #f6d340;
 }
 
 @media only screen and (min-width: 38em) {
