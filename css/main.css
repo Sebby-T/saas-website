@@ -36,7 +36,8 @@ html {
   max-width: 20em;
 }
 
-header {
+header,
+footer {
   background-color: #23282d;
 }
 
@@ -49,7 +50,8 @@ header {
 }
 
 .header-nav a,
-.nav a {
+.nav a,
+.footer a {
   color: #fff;
   text-decoration: none;
 }
