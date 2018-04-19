@@ -2,12 +2,32 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
+.heading {
+  font-family: 'Comfortaa', cursive;
+}
+
 .light-blue {
   background-color: #26c6ff;
 }
 
-.heading {
-  font-family: 'Comfortaa', cursive;
+.white {
+  color: #fff;
+}
+
+.blue {
+  background-color: #00a0ea;
+}
+
+.button-style {
+  border: 3px solid #fff;
+  color: #1F51C2;
+  background-color: #f6d340;
+}
+
+.form-input {
+  border-radius: 4px;
+  border-color: #ccc;
+  max-width: 22em;
 }
 
 header {
@@ -16,6 +36,10 @@ header {
 
 .logo {
   max-width: 150px;
+}
+
+.img-height {
+  max-height: 26em;
 }
 
 .header-nav a,
@@ -66,6 +90,15 @@ header [type="checkbox"] + label::before {
   header [type="checkbox"] + label,
   .nav-check:checked ~ .nav {
     display: none;
+  }
+
+  .banner-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: none;
   }
 
 }
