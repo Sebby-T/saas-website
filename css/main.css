@@ -20,14 +20,20 @@ html {
 
 .button-style {
   border: 3px solid #fff;
-  color: #1F51C2;
+  color: #1f51c2;
   background-color: #f6d340;
+}
+
+.button-style-blue {
+  border: 3px solid #1f51c2;
+  color: #fff;
+  background-color: #1f51c2;
 }
 
 .form-input {
   border-radius: 4px;
   border-color: #ccc;
-  max-width: 22em;
+  max-width: 20em;
 }
 
 header {
