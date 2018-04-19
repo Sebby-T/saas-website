@@ -22,12 +22,14 @@ html {
   border: 3px solid #fff;
   color: #1f51c2;
   background-color: #f6d340;
+  border-radius: 8px;
 }
 
 .button-style-blue {
   border: 3px solid #1f51c2;
   color: #fff;
   background-color: #1f51c2;
+  border-radius: 8px;
 }
 
 .form-input {
