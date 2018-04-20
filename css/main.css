@@ -120,6 +120,10 @@ tr:nth-of-type(even) {
   background-color: #e2e2e2;
 }
 
+table {
+  min-width: 45em;
+}
+
 @media only screen and (min-width: 38em) {
 
   header [type="checkbox"] + label,
@@ -134,6 +138,10 @@ tr:nth-of-type(even) {
     transform: translate(-50%, -50%);
     width: 100%;
     background-color: none;
+  }
+
+  .table-wrapper {
+    overflow: visible;
   }
 
 }
