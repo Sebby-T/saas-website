@@ -103,6 +103,23 @@ header .current {
   color: #f6d340;
 }
 
+th,
+td {
+  border: 2px solid #fff;
+  border-radius: 8px;
+  height: 3em;
+}
+
+thead tr,
+thead th {
+  background-color: #00a0ea;
+  border-color: #fff;
+}
+
+tr:nth-of-type(even) {
+  background-color: #e2e2e2;
+}
+
 @media only screen and (min-width: 38em) {
 
   header [type="checkbox"] + label,
