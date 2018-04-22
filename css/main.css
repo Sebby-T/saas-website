@@ -1,9 +1,9 @@
 html {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .heading {
-  font-family: 'Comfortaa', cursive;
+  font-family: Comfortaa, cursive;
 }
 
 .light-blue {
@@ -23,6 +23,7 @@ html {
   color: #1f51c2;
   background-color: #f6d340;
   border-radius: 8px;
+  font-family: 'Comfortaa', cursive;
 }
 
 .button-style-blue {
@@ -30,6 +31,7 @@ html {
   color: #fff;
   background-color: #1f51c2;
   border-radius: 8px;
+  font-family: Comfortaa, cursive;
 }
 
 .form-input {
@@ -122,6 +124,28 @@ tr:nth-of-type(even) {
 
 table {
   min-width: 45em;
+}
+
+.card {
+  border: 3px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, .1);
+}
+
+.card-header {
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+
+}
+
+.card-content {
+  background-color: #23282d;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.unavailable {
+  color: #ccc;
 }
 
 @media only screen and (min-width: 38em) {
