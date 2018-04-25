@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Inner voice homepage</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Lato:400,400i,700" rel="stylesheet">
+</head>
+<body class="light-blue">
+
+  <main>
+    <section class="wrapper gutter-1-2 pad-t-2 pad-b-2">
+      <div class="grid form gutter pad-t-2 pad-b-2">
+        <div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center">
+          <a href="index.html">
+            <img class="img-flex ib push form-logo" src="images/company-logo-black.svg" alt="">
+          </a>
+        <h1 class="heading giga">Sign-up</h1>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+          <form class="push-0 unit xs-1 s-1 push-1-2" method="POST" action="https://formspree.io/turn0213@algonquinlive.com">
+            <div class="push">
+              <label for="first-name">First name</label>
+              <input class="form-input" id="first-name" name="name" required>
+            </div>
+            <div class="push">
+              <label for="last-name">Last name</label>
+              <input class="form-input" id="last-name" name="name" required>
+            </div>
+            <div class="push">
+              <label for="email">Email</label>
+              <input class="form-input" id="email" type="email" placeholder="youremail@example.com" name="email" required>
+            </div>
+            <div class="push">
+              <label for="telephone">Phone number</label>
+              <input class="form-input" id="telephone" type="tel" placeholder="(888) 888-8888" name="telephone" required>
+            </div>
+            <div class="push">
+              <label for="subject">Choose your plan</label>
+              <select class="form-input" id="subject" name="_subject" required>
+                <option value="#">Choose wisely</option>
+                <option>Free</option>
+                <option>Premium</option>
+              </select>
+            </div>
+            <div class="push-2">
+              <label for="message">Wanna ask us something?</label>
+              <textarea class="form-input" id="message" name="message"></textarea>
+            </div>
+            <div class="text-center">
+              <button class="btn button-style-blue w-1 kilo" type="submit">Submit</button>
+            </div>
+          </form>
+          <p class="gutter-2 text-center milli">By creating an account with email you agree to the Inner Voice <a href="#">Terms of service</a> and <a href="#">Privacy Notice</a>.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
