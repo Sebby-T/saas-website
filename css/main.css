@@ -73,7 +73,7 @@ footer {
 .header-nav a:hover,
 .header-nav a:focus,
 .nav a:focus,
-nav:focus {
+.footer a:focus {
   color: #000;
   background-color: #f6d340;
   border-radius: 3px;
