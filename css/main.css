@@ -15,7 +15,7 @@ html {
 }
 
 .blue {
-  background-color: #068dcc;
+  background-color: #00a0ea;
 }
 
 .button-style {
@@ -70,13 +70,15 @@ footer {
   color: #f6d340;
 }
 
-.header-nav a:hover,
-.header-nav a:focus,
-.nav a:focus,
-.footer a:focus {
+.header-nav a:hover {
   color: #000;
   background-color: #f6d340;
   border-radius: 3px;
+}
+
+.header-nav a:focus,
+.nav a:focus,
+.footer a:focus {
   outline: 3px solid #fff;
 }
 
