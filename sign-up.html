@@ -12,14 +12,57 @@
 </head>
 <body class="light-blue">
 
-  <main>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner" id="header">
+    <div class="wrapper grid grid-middle">
+      <div class="push-0 unit xs-1-2 s-1-2 m-1-2 island-1-2">
+        <a href="index.html">
+          <img class="logo img-flex" src="images/company-logo.svg" aria-label="Link to Inner Voice homepage" alt="company logo">
+        </a>
+      </div>
+      <nav role="navigation" class="header-nav push-0 unit xs-0 s-0 m-1-2 text-right" id="nav" tabindex="0">
+        <ul class="push-0 list-group-inline">
+          <li class="ib gutter-1-4"><a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="tour.html">Product</a></li>
+          <li class="ib gutter-1-4"><a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="pricing.html">Pricing</a></li>
+          <li class="ib gutter-1-4"><a class="gutter-1-2 pad-t-1-4 pad-b-1-4 current" href="sign-up.html">Sign-up</a></li>
+        </ul>
+      </nav>
+      <input type="checkbox" id="mob-nav" class="nav-check unit xs-0">
+      <label for="mob-nav" class="ib nav-label unit xs-1-2 s-1-2 m-0 text-right island-1-2 ib">
+        <i class="icon i-24">
+          <img class="img-flex nav-open" src="images/nav-icon.svg" alt="Open navigation">
+          <img class="img-flex nav-close" src="images/nav-icon-close.svg" alt="Close navigation">
+        </i>
+      </label>
+      <nav class="nav unit xs-1 s-1 m-0">
+        <ul class="push-0 list-group text-center">
+          <li class="island"><a class="ib gutter pad-t-1-4 pad-b-1-4" href="tour.html">Product</a></li>
+          <li class="island"><a class="ib gutter pad-t-1-4 pad-b-1-4" href="pricing.html">Pricing</a></li>
+          <li class="island"><a class="ib gutter pad-t-1-4 pad-b-1-4 current" href="sign-up.html">Sign-up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main" id="main" tabindex="0">
+    <section class="light-blue relative">
+      <div class="relative embed embed-24by10">
+        <img class="embed-item img-flex" src="images/pricing-banner.svg" alt="">
+      </div>
+    </section>
+
     <section class="wrapper gutter-1-2 pad-t-2 pad-b-2">
       <div class="grid form gutter pad-t-2 pad-b-2">
         <div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center">
           <a href="index.html">
-            <img class="img-flex ib push form-logo" src="images/company-logo-black.svg" alt="">
+            <img class="img-flex ib push form-logo" src="images/company-logo-black.svg" aria-label="Link to Inner Voice homepage" alt="company logo">
           </a>
-        <h1 class="heading giga">Sign-up</h1>
+          <h1 class="heading giga push-1-8">Sign-up now</h1>
+          <h2 class="heading mega">Start free</h2>
         </div>
         <div class="unit xs-1 s-1 m-1 l-1 xl-1">
           <form class="push-0 unit xs-1 s-1 push-1-2" method="POST" action="https://formspree.io/turn0213@algonquinlive.com">
@@ -48,7 +91,7 @@
             </div>
             <div class="push-2">
               <label for="message">Wanna ask us something?</label>
-              <textarea class="form-input" id="message" name="message"></textarea>
+              <textarea class="form-input" id="message" name="message" required></textarea>
             </div>
             <div class="text-center">
               <button class="btn button-style-blue w-1 kilo" type="submit">Submit</button>
@@ -59,6 +102,95 @@
       </div>
     </section>
   </main>
+
+  <footer role="contentinfo">
+    <div class="grid grid-middle wrapper gutter-1-2">
+      <nav class="footer unit xs-1 s-1 m-2 l-1 xl-1 pad-t-2 pad-b-2 text-center">
+        <ul class="list-group-inline push-0">
+          <li class="gutter-1-2">
+            <i class="icon i-48">
+              <a href="#">
+                <img class="img-flex" src="images/facebook-icon.svg" aria-label="Link to Inner Voice facebook page" alt="Link to facebook page">
+              </a>
+            </i>
+          </li>
+          <li class="gutter-1-2">
+            <i class="icon i-48">
+              <a href="#">
+                <img class="img-flex" src="images/twitter-icon.svg" aria-label="Link to Inner Voice twitter page" alt="Link to twitter page">
+              </a>
+            </i>
+          </li>
+          <li class="gutter-1-2">
+            <i class="icon i-48">
+              <a href="#">
+                <img class="img-flex" src="images/linkdin-icon.svg" aria-label="Link to Inner Voice Linked in page" alt="Link to linkdin page">
+              </a>
+            </i>
+          </li>
+          <li class="gutter-1-2">
+            <i class="icon i-48">
+              <a href="#">
+                <img class="img-flex" src="images/email-icon.svg" aria-label="Send an email to Inner Voice" alt="Link to email">
+              </a>
+            </i>
+          </li>
+        </ul>
+      </nav>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter push-2">
+        <a href="index.html">
+          <img class="img-flex" src="images/company-logo.svg" aria-label="Link to Inner Voice homepage" alt="Compay logo">
+        </a>
+      </div>
+      <nav class="footer unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 gutter">
+        <ul class="list-group">
+          <li class="milli bold push-1-2 island-1-4">
+            <a href="#">About Inner Voice</a>
+          </li>
+          <li class="milli push-1-2 island-1-4">
+            <a href="pricing.html">Pricing</a>
+          </li>
+          <li class="milli push-1-2 island-1-4">
+            <a href="#">Reviews</a>
+          </li>
+          <li class="milli push-1-2 island-1-4">
+            <a href="#">Security</a>
+          </li>
+          <li class="milli push-1-2 island-1-4">
+            <a href="#">Partners</a>
+          </li>
+          <li class="milli push-1-2 island-1-4">
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="footer unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 gutter">
+        <ul class="list-group">
+          <li class="milli bold push-1-2 island-1-4">
+            <a href="#">Help</a>
+          </li>
+          <li class="milli push-1-2 island-1-4">
+            <a href="#">Technical</a>
+          </li>
+          <li class="milli push-1-2 island-1-4">
+            <a href="#">FAQs</a>
+          </li>
+          <li class="milli push-1-2 island-1-4">
+            <a href="#">Contact Us</a>
+          </li>
+          <li class="milli push-1-2 island-1-4">
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li class="milli push-1-2 island-1-4">
+            <a href="#">Brand Guidelines</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="unit xs-1 s-1 m-1 l-1 xl-2 text-center push">
+        <small class="white micro push-0">© Inner Voice</small>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>

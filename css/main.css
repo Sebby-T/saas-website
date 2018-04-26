@@ -70,10 +70,14 @@ footer {
   color: #f6d340;
 }
 
-.header-nav a:hover {
+.header-nav a:hover,
+.header-nav a:focus,
+.nav a:focus,
+nav:focus {
   color: #000;
   background-color: #f6d340;
   border-radius: 3px;
+  outline: 3px solid #fff;
 }
 
 .nav {
@@ -169,10 +173,6 @@ table {
 
 .form-logo {
   max-width: 250px;
-}
-
-label {
-  color: #ccc;
 }
 
 @media only screen and (min-width: 38em) {
