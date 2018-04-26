@@ -2,31 +2,36 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Inner voice homepage</title>
+  <title>Inner voice</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Lato:400,400i,700" rel="stylesheet">
 </head>
 <body>
 
-  <header id="header">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner" id="header">
     <div class="wrapper grid grid-middle">
-      <h1 class="push-0 unit xs-1-2 s-1-2 m-1-2 island-1-2">
+      <div class="push-0 unit xs-1-2 s-1-2 m-1-2 island-1-2">
         <a href="index.html">
           <img class="logo img-flex" src="images/company-logo.svg" alt="">
         </a>
-      </h1>
-      <nav class="header-nav push-0 unit xs-0 s-0 m-1-2 text-right">
+      </div>
+      <nav role="navigation" class="header-nav push-0 unit xs-0 s-0 m-1-2 text-right">
         <ul class="push-0 list-group-inline">
-          <li class="ib gutter-1-4"><a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="tours.html">Product</a></li>
+          <li class="ib gutter-1-4"><a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="tour.html">Product</a></li>
           <li class="ib gutter-1-4"><a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="pricing.html">Pricing</a></li>
           <li class="ib gutter-1-4"><a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="sign-up.html">Sign-up</a></li>
         </ul>
       </nav>
-      <input type="checkbox" id="nav-check" class="nav-check">
+      <input type="checkbox" id="nav-check" class="nav-check unit">
       <label class="ib nav-label unit xs-1-2 s-1-2 m-0 text-right island-1-2" for="nav-check">
         <i class="icon i-24">
           <img class="img-flex nav-open" src="images/nav-icon.svg" alt="Open navigation">
@@ -35,29 +40,29 @@
       </label>
       <nav class="nav unit xs-1 s-1 m-0">
         <ul class="push-0 list-group text-center">
-          <li class="island"><a class="block" href="tours.html">Product</a></li>
+          <li class="island"><a class="block" href="tour.html">Product</a></li>
           <li class="island"><a class="block" href="pricing.html">Pricing</a></li>
           <li class="island"><a class="block" href="sign-up.html">Sign-up</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <main>
+  <main role="main">
     <section class="light-blue relative">
       <div class="relative embed embed-24by10">
         <img class="embed-item img-flex" src="images/homepage-banner.svg" alt="">
       </div>
       <div class="banner-content pad-t-2 pad-b-2 gutter-1-2">
         <div class="wrapper">
-          <h2 class="heading white tera">Talk with your inside voice</h2>
+          <h1 class="heading white tera">Talk with your inside voice</h1>
           <p class="heading white mega">Connecting has never been easier… and more quiet.</p>
         </div>
         <form class="wrapper" action="#" method="post">
           <label class="white push-1-2" for="banner-form">Make an account today!</label>
           <input class="btn-input push" type="email" id="banner-form" name="email" placeholder="businessemail@example.com" required>
-          <button class="button-style gutter text-center heading" type="submit" name="button">Start Free</button>
+          <button class="button-style gutter text-center heading" type="submit">Start Free</button>
         </form>
-      <div>
+      </div>
     </section>
     <section>
       <div class="grid grid-middle wrapper pad-t-2 pad-b-2">
@@ -65,16 +70,16 @@
           <img class="img-flex img-height" src="images/chat-box.svg" alt="">
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2 text-center">
-          <h3 class="heading push-1-2 giga">Keep it personal</h3>
+          <h2 class="heading push-1-2 giga">Keep it personal</h2>
           <p class="gutter-1-4 push-0">Inner Voice gets better as more people use it. It’s structured collaboration and a better way to join global teams together to make even the largest conversations easy to follow.</p>
         </div>
       </div>
       <div class="blue pad-t-2 pad-b-2">
         <div class="grid grid-middle wrapper">
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2 text-center">
-            <h3 class="heading white puhs-1-2 giga">Stay Connected</h3>
-            <p class="white gutter-1-4">Drag and drop files for instant sharing and feedback. You’ll find unlimited storage always waiting for you.</p>
-            <a class="btn button-style" href="tours.html">Learn More</a>
+            <h3 class="heading puhs-1-2 giga">Stay Connected</h3>
+            <p class="gutter-1-4">Drag and drop files for instant sharing and feedback. You’ll find unlimited storage always waiting for you.</p>
+            <a class="btn button-style" href="tour.html">Learn More</a>
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2 text-center">
             <img class="img-flex img-height" src="images/connected-logo.svg" alt="">
@@ -96,13 +101,13 @@
         <form class="wrapper text-center" action="#" method="post">
           <label class="white push-1-2 mega" for="footer-form">Make your free account today!</label>
           <input class="btn-input push max-length" type="email" id="footer-form" name="email" placeholder="businessemail@example.com" required>
-          <button class="button-style gutter text-center heading" type="submit" name="button">Submit</button>
+          <button class="button-style gutter text-center heading" type="submit">Submit</button>
         </form>
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <div class="grid grid-middle wrapper gutter-1-2">
       <nav class="footer unit xs-1 s-1 m-2 l-1 xl-1 pad-t-2 pad-b-2 text-center">
         <ul class="list-group-inline push-0">
@@ -185,8 +190,8 @@
           </li>
         </ul>
       </nav>
-      <div class="unit xs-1 s-1 m-1 l-1 xl-2 text-center">
-        <small><p class="white micro">© Inner Voice</p></small>
+      <div class="unit xs-1 s-1 m-1 l-1 xl-2 text-center push">
+        <small class="white micro push-0">© Inner Voice</small>
       </div>
     </div>
   </footer>

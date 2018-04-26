@@ -23,7 +23,7 @@ html {
   color: #1f51c2;
   background-color: #f6d340;
   border-radius: 8px;
-  font-family: 'Comfortaa', cursive;
+  font-family: Comfortaa, cursive;
 }
 
 .button-style-blue {
@@ -38,7 +38,6 @@ html {
   border: 3px solid #1f51c2;
   color: #1f51c2;
   background-color: #f6d340;
-
 }
 
 .btn-input {
@@ -142,7 +141,6 @@ table {
 .card-header {
   border-top-left-radius: 17px;
   border-top-right-radius: 17px;
-
 }
 
 .card-content {

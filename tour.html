@@ -2,26 +2,31 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Inner voice homepage</title>
+  <title>Inner voice product</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Lato:400,400i,700" rel="stylesheet">
 </head>
 <body>
 
-  <header id="header">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
     <div class="wrapper grid grid-middle">
       <h1 class="push-0 unit xs-1-2 s-1-2 m-1-2 island-1-2">
         <a href="index.html">
           <img class="logo img-flex" src="images/company-logo.svg" alt="">
         </a>
       </h1>
-      <nav class="header-nav push-0 unit xs-0 s-0 m-1-2 text-right">
+      <nav role="navigation" id="nav" class="header-nav push-0 unit xs-0 s-0 m-1-2 text-right">
         <ul class="push-0 list-group-inline">
-          <li class="ib gutter-1-4"><a class="gutter-1-2 pad-t-1-4 pad-b-1-4  current" href="tours.html">Product</a></li>
+          <li class="ib gutter-1-4"><a class="gutter-1-2 pad-t-1-4 pad-b-1-4  current" href="tour.html">Product</a></li>
           <li class="ib gutter-1-4"><a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="pricing.html">Pricing</a></li>
           <li class="ib gutter-1-4"><a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="sign-up.html">Sign-up</a></li>
         </ul>
@@ -35,14 +40,14 @@
       </label>
       <nav class="nav unit xs-1 s-1 m-0">
         <ul class="push-0 list-group text-center">
-          <li class="island"><a class="block current" href="tours.html">Product</a></li>
+          <li class="island"><a class="block current" href="tour.html">Product</a></li>
           <li class="island"><a class="block" href="pricing.html">Pricing</a></li>
           <li class="island"><a class="block" href="sign-up.html">Sign-up</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <main>
+  <main id="main" role="main" class="main" tabindex="0">
     <section class="light-blue relative">
       <div class="relative embed embed-24by10">
         <img class="embed-item img-flex" src="images/product-banner.svg" alt="">
@@ -52,7 +57,7 @@
           <h2 class="heading white tera">Save a tree and speak freely</h2>
           <p class="heading white mega">Connect. Visualize. Cooperate.</p>
         </div>
-      <div>
+      </div>
     </section>
     <section>
       <div class="grid grid-middle wrapper pad-t-2 pad-b-2">
@@ -107,7 +112,7 @@
           <caption class="heading normal giga">What's in the plan?</caption>
           <thead>
             <tr>
-              <th scope="col" colspan="2">&nbsp;</th>
+              <th scope="col" colspan="2"></th>
               <th scope="col" class="heading white text-center mega text-upper valign-middle">Free</th>
               <th scope="col" class="heading white text-center mega text-upper valign-middle">Premium</th>
             </tr>
