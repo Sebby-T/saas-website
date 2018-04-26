@@ -15,7 +15,7 @@ html {
 }
 
 .blue {
-  background-color: #00a0ea;
+  background-color: #068dcc;
 }
 
 .button-style {
@@ -87,7 +87,7 @@ footer {
 }
 
 header [type="checkbox"] + label::before {
-  top: -10em;
+  top: -4em;
 }
 
 .nav-close {
