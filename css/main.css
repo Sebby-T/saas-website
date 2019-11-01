@@ -283,6 +283,19 @@ small {
   transition: all .2s ease-out;
 }
 
+/* tour page */
+
+.chat-2 {
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, .2));
+}
+
+.francine-1 {
+  max-width: 13em;
+
+  top: 13%;
+  left: -17%;
+}
+
 @media only screen and (min-width: 25em) {
 
   .embed-mine {
@@ -367,6 +380,12 @@ small {
     transition: all .2s ease-out;
   }
 
+  .francine-1 {
+    max-width: 20em;
+
+    top: 10%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -385,6 +404,12 @@ small {
     top: 28%;
     left: 8%;
     transition: all .2s ease-out;
+  }
+
+  .francine-1 {
+    max-width: 34em;
+
+    top: 10%;
   }
 
 }
